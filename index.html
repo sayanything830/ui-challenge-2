@@ -2,15 +2,52 @@
 <html>
   <head>
     <title>UI Challenge 2</title>
+    <link rel="stylesheet" href="styles/reset.css">
   </head>
   <body>
     <main>
-      <form>
+      <form id="text">
         <fieldset>
           <label for="text-input">text input</label>
+          <br>
           <input type="text" id="text-input" name="text-input" placeholder="placeholder text" required>
         </fieldset>
+        <fieldset>
+          <label for="text-input-error">text input w/ validation error</label>
+          <br>
+          <input type="text" id="text-input" name="text-input" placeholder="placeholder text" required>
+          <p>please enter a valid username</p>
+        </fieldset>
       </form>
+
+      <form="select">
+        <fieldset>
+          <label for="select-box">select box</label>
+          <br>
+          <input type="text" id="select-box" name="select-box" placeholder="please select an option">
+        </fieldset>
+        <fieldset>
+          <label for="select-box-open">select box - open</label>
+          <br>
+          <input type="text" id="select-box-open" name="text-input">
+          <p>option 1</p>
+          <p>option 2</p>
+          <p>option 3</p>
+          <p>option 4</p>
+          <p>option 5</p>
+        </fieldset>
+      </form>
+      <div id="checkbox">
+        <h2>checkbox</h2>
+      </div>
+      <div id="radio">
+        <h2>radio</h2>
+      </div>
+      <div id="buttons">
+        <h2>submit</h2>
+      </div>
+
+
     </main>
   </body>
 </html>
