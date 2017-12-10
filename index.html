@@ -3,19 +3,22 @@
   <head>
     <title>UI Challenge 2</title>
     <link rel="stylesheet" href="styles/reset.css">
-    <!-- <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/layout.css"> -->
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/layout.css">
     <link rel="stylesheet" href="styles/module.css">
   </head>
   <body>
+    <header>
+      <h1>UI Challenge - Custom Form Elements</h1>
+    </header>
     <main>
       <form id="text">
-        <fieldset>
+        <fieldset class="text">
           <label for="text-input">text input</label>
           <br>
           <input type="text" id="text-input" name="text-input" placeholder="placeholder text" required>
         </fieldset>
-        <fieldset>
+        <fieldset class="error">
           <label for="text-input-error">text input w/ validation error</label>
           <br>
           <input type="text" id="text-input" name="text-input" placeholder="placeholder text" required>
@@ -23,11 +26,11 @@
         </fieldset>
       </form>
 
-      <form="select">
+      <form class="select">
         <fieldset>
           <label for="select-box">select box</label>
           <br>
-          <input type="text" id="select-box" name="select-box" placeholder="please select an option">
+          <input type="text" id="select-box" name="select-box" placeholder="please select an option...">
           <div class="sprite-down-arrow"></div>
         </fieldset>
         <fieldset>
@@ -35,11 +38,11 @@
           <br>
           <input type="text" id="select-box-open" name="text-input">
           <div class="sprite-up-arrow"></div>
-          <p>option 1</p>
-          <p>option 2</p>
-          <p>option 3</p>
-          <p>option 4</p>
-          <p>option 5</p>
+          <p class="light">option 1</p>
+          <p class="dark">option 2</p>
+          <p class="light">option 3</p>
+          <p class="dark">option 4</p>
+          <p class="light">option 5</p>
         </fieldset>
       </form>
       <div id="checkbox">
@@ -51,7 +54,9 @@
         <div class="sprite-radio"></div>
       </div>
       <div id="buttons">
-        <h2>submit</h2>
+        <h2>buttons</h2>
+        <input class="a" type="submit">
+        <input class="b" type="submit">
       </div>
 
 

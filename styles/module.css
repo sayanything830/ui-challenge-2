@@ -1,27 +1,29 @@
 .sprite-down-arrow,  .sprite-up-arrow, .sprite-checkbox, .sprite-radio {
-  background: url('./sprites/form-elements-sprite.png') no-repeat;
+  background: url('../sprites/form-elements-sprite.png') no-repeat;
 }
 
 .sprite-down-arrow {
-	background: url('./sprites/form-elements-sprite.png') no-repeat -1143px -280px;
-	width: 76px;
-	height: 77px;
+  background: url('../sprites/form-elements-sprite.png') no-repeat -784px -190px;
+	width: 57px;
+	height: 57px;
+  position: absolute;
+  float: right;
 }
 
 .sprite-up-arrow {
-	background: url('./sprites/form-elements-sprite.png') no-repeat -1035px -280px;
-	width: 77px;
-	height: 77px;
+  background: url('../sprites/form-elements-sprite.png') no-repeat -710px -184px;
+  width: 57px;
+  height: 64px;
 }
 
 .sprite-checkbox {
-	background: url('./sprites/form-elements-sprite.png') no-repeat -158px -239px;
-	width: 384px;
-	height: 160px;
+  background: url('../sprites/form-elements-sprite.png') no-repeat -109px -165px;
+	width: 264px;
+	height: 110px;
 }
 
 .sprite-radio {
-	background: url('./sprites/form-elements-sprite.png') no-repeat -582px -242px;
-	width: 398px;
-	height: 166px;
-}
+  background: url('../sprites/form-elements-sprite.png') no-repeat -398px -162px;
+  	width: 278px;
+  	height: 121px;
+  }
