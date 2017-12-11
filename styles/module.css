@@ -1,0 +1,33 @@
+.sprite-down-arrow,  .sprite-up-arrow, .sprite-checkbox, .sprite-radio {
+  background: url('../sprites/form-elements-sprite.png') no-repeat;
+}
+
+.sprite-down-arrow {
+  background: url('../sprites/form-elements-sprite.png') no-repeat -784px -190px;
+	width: 57px;
+	height: 57px;
+  position: absolute;
+  top: 65px;
+  right: 0;
+}
+
+.sprite-up-arrow {
+  background: url('../sprites/form-elements-sprite.png') no-repeat -710px -184px;
+  width: 57px;
+  height: 64px;
+  position: absolute;
+  top: 61px;
+  right: 0;
+}
+
+.sprite-checkbox {
+  background: url('../sprites/form-elements-sprite.png') no-repeat -109px -165px;
+	width: 264px;
+	height: 110px;
+}
+
+.sprite-radio {
+  background: url('../sprites/form-elements-sprite.png') no-repeat -398px -162px;
+  	width: 278px;
+  	height: 121px;
+  }
