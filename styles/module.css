@@ -7,13 +7,17 @@
 	width: 57px;
 	height: 57px;
   position: absolute;
-  float: right;
+  top: 65px;
+  right: 0;
 }
 
 .sprite-up-arrow {
   background: url('../sprites/form-elements-sprite.png') no-repeat -710px -184px;
   width: 57px;
   height: 64px;
+  position: absolute;
+  top: 61px;
+  right: 0;
 }
 
 .sprite-checkbox {

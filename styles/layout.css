@@ -7,14 +7,11 @@ header {
 
 fieldset {
   margin-top: 100px;
-  /*font-size: 30px;
-  font-weight: lighter;
-  width: 100%;*/
 }
 
 input#text-input {
   padding-left: 20px;
-  line-height: 1.5;
+  line-height: 2;
   font-size: 30px;
   font-weight: lighter;
   width: 100%;
@@ -34,19 +31,18 @@ input#text-input {
 
 input#select-box {
   padding-left: 20px;
-  line-height: 1.5;
+  line-height: 2;
   font-size: 30px;
   font-weight: lighter;
   width: 100%;
 }
-
-.select fieldset {
+.c, .d {
   position: relative;
 }
 
 input#select-box-open {
   padding-left: 20px;
-  line-height: 1.5;
+  line-height: 2;
   font-size: 30px;
   font-weight: lighter;
   width: 100%;
